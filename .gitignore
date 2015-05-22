@@ -7,6 +7,8 @@
 # If you are manually making edits in these folders, proceed with caution.
 /platforms/
 /plugins/
+/node_modules
+/dist/*
 
 # Other cca artefacts.
 /.cordova/
