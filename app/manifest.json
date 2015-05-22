@@ -1,0 +1,30 @@
+{
+    "name": "Github browser",
+    "description": "A Sample Chrome App for browsing Github repositories",
+    "manifest_version": 2,
+    "minimum_chrome_version": "23",
+    "version": "0.1.1",
+    "offline_enabled": true,
+    "icons": {
+        "16": "assets/icons/icon16.png",
+        "36": "assets/icons/icon36.png",
+        "48": "assets/icons/icon48.png",
+        "57": "assets/icons/icon57.png",
+        "72": "assets/icons/icon72.png",
+        "96": "assets/icons/icon96.png",
+        "114": "assets/icons/icon114.png",
+        "128": "assets/icons/icon128.png",
+        "144": "assets/icons/icon144.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "permissions": [
+        "<all_urls>"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.gstatic.com; object-src 'self'; img-src 'self' 'unsafe-eval' https://avatars.githubusercontent.com;"
+}
