@@ -12,8 +12,10 @@ You need to install [Chrome Developer tools] (https://github.com/MobileChromeApp
 After cloning the repository:
 
 ```
+cd github-chrome-app
 cca create ./platform --android --link-to=app/manifest.json
 npm install
+mkdir dist
 ```
 
 ## Run it
